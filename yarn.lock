@@ -2,6 +2,43 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.17.8":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.19.4.tgz#a42f814502ee467d55b38dd1c256f53a7b885c78"
+  integrity sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@charcoal-ui/foundation@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@charcoal-ui/foundation/-/foundation-1.0.0.tgz#c72aff5a2c22e6169bd574ffe0a0bfefe67de784"
+  integrity sha512-VyfgTicoPF1jP5UqPGwPwFMRo9WCAWn1BqAYSgXxlZWvF2Vwp9xh7TGiakrm/9WZ88FyakKu6uHyyW2nrPSoCQ==
+
+"@charcoal-ui/tailwind-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@charcoal-ui/tailwind-config/-/tailwind-config-1.0.0.tgz#28c0fc9c8437f558a667e60d52c0cea4cad262a7"
+  integrity sha512-nUW4zSgSW2UNxNufZ/WpfPM4SWkFYB3IhCJnZYiLQhpXRiag/27Lal8fCl7WsT47uQyQ1pltIQ1+ueD/QJ6jcw==
+  dependencies:
+    "@charcoal-ui/foundation" "^1.0.0"
+    "@charcoal-ui/theme" "^1.0.0"
+    "@charcoal-ui/utils" "^1.0.0"
+
+"@charcoal-ui/theme@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@charcoal-ui/theme/-/theme-1.0.0.tgz#ea6645c2d1de92c8a7161983265a6f928614133e"
+  integrity sha512-4bwDdOv7uN4f+uu9eus8oZaf9ixxA8GCpVusDEXEgSUfCkkS1WWYsVnQIEIQRvFuiYf99AJ68VFGNyYHKo4NMg==
+  dependencies:
+    "@charcoal-ui/foundation" "^1.0.0"
+    "@charcoal-ui/utils" "^1.0.0"
+
+"@charcoal-ui/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@charcoal-ui/utils/-/utils-1.0.0.tgz#e92794159f2c0a44b830645df02611551b088477"
+  integrity sha512-WQC4xN1IGyXS/xShkd1dvYUoCwv75xVuo0WGo2ghu/vZ8L0e4v3HmA6ObkyuxMSCMEl2G7qGt79n1pvAEZdrLg==
+  dependencies:
+    "@charcoal-ui/foundation" "^1.0.0"
+    polished "^4.1.4"
+
 "@next/env@12.3.1":
   version "12.3.1"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.3.1.tgz#18266bd92de3b4aa4037b1927aa59e6f11879260"
@@ -478,6 +515,13 @@ pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
+polished@^4.1.4:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.2.2.tgz#2529bb7c3198945373c52e34618c8fe7b1aa84d1"
+  integrity sha512-Sz2Lkdxz6F2Pgnpi9U5Ng/WdWAUZxmHrNPoVlm3aAemxoy2Qy7LGjQg4uf8qKelDAUW94F4np3iH2YPf2qefcQ==
+  dependencies:
+    "@babel/runtime" "^7.17.8"
+
 postcss-import@^14.1.0:
   version "14.1.0"
   resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-14.1.0.tgz#a7333ffe32f0b8795303ee9e40215dac922781f0"
@@ -578,6 +622,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+regenerator-runtime@^0.13.4:
+  version "0.13.10"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz#ed07b19616bcbec5da6274ebc75ae95634bfc2ee"
+  integrity sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==
 
 resolve@^1.1.7, resolve@^1.22.1:
   version "1.22.1"
